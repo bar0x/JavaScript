@@ -1,9 +1,65 @@
+body{
+    background-image: url("sfondoo.png");
+}
+
 .main{
     text-align: center;
     border: 1px rgb(0,0,0);
-    background-color: rgb(189, 201, 238);
 }
 
-.h1{
-    font-family: 'Courier New', Courier, monospace;
+
+
+.title{
+    padding-top: 50px;
+    font-size: 67px;
+    font-family: 'Paytone One', sans-serif;
+    text-align-last: center;
+    color: rgb(0, 102, 255);
+    letter-spacing: 8px;
 }
+
+h1{
+    color: rgb(45, 85, 145);
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 8px;
+}
+
+h2{
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 20px;
+}
+
+
+#ProvaOut{
+    text-align: center;
+}
+
+
+
+#InGiorno, #InMese, #InAnno, #VerifyButton{
+    font-family: 'Paytone One', sans-serif;
+    color: rgb(0, 34, 51);
+    text-align: center;
+    background-color: rgb(45, 85, 145);
+    border-width:0px;
+    border:none;
+    border-radius: 5px;
+}
+
+#StateButton{
+    font-family: 'Paytone One', sans-serif;
+    color: rgb(0, 34, 51);
+    text-align: center;
+    background-color: rgb(0, 102, 255);
+    border-width:0px;
+    border:none;
+    border-radius: 5px;
+}
+
+
+/* parametro rimozione frecce nel campo input numero */
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
