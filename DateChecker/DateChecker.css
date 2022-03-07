@@ -1,14 +1,10 @@
 body{
     background-image: url("sfondoo.png");
 }
-
 .main{
     text-align: center;
     border: 1px rgb(0,0,0);
 }
-
-
-
 .title{
     padding-top: 50px;
     font-size: 67px;
@@ -18,6 +14,7 @@ body{
     letter-spacing: 8px;
 }
 
+/* fonts */
 h1{
     color: rgb(45, 85, 145);
     text-align: center;
@@ -32,12 +29,7 @@ h2{
 }
 
 
-#ProvaOut{
-    text-align: center;
-}
-
-
-
+/* bottoni input giorno, mese, anno + bottone d'invio */
 #InGiorno, #InMese, #InAnno, #VerifyButton{
     font-family: 'Paytone One', sans-serif;
     color: rgb(0, 34, 51);
@@ -46,8 +38,10 @@ h2{
     border-width:0px;
     border:none;
     border-radius: 5px;
+    outline: none;
 }
 
+/* out button */
 #StateButton{
     font-family: 'Paytone One', sans-serif;
     color: rgb(0, 34, 51);
@@ -56,8 +50,10 @@ h2{
     border-width:0px;
     border:none;
     border-radius: 5px;
-}
+    outline: none; /* rimozione bordo on focus*/
+    margin-top: 300px;
 
+}
 
 /* parametro rimozione frecce nel campo input numero */
 input[type=number]::-webkit-inner-spin-button {

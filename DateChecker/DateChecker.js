@@ -2,13 +2,15 @@
     var mese;
     var anno;
 
-/* funzioni check data*/
+/* dati caselle ---> variabili*/
 function TestBisestile() {
     giorno = document.getElementById("InGiorno").value;
     mese = document.getElementById("InMese").value;
     anno = document.getElementById("InAnno").value;
 
-    
+
+
+    /* controllo anno bisestile */
     if (anno % 4 == 0){
         if (anno % 100 == 0){
             if (anno % 400 == 0)
@@ -23,6 +25,8 @@ function TestBisestile() {
         AnnoNonBisestile()
 }
 
+
+/* funzioni controllo mese + giorno*/
 function AnnoBisestile() {
     if ((mese == 01) && ((giorno >= 1) && giorno <= 31))
         TrueDate()
