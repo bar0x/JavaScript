@@ -1,0 +1,9 @@
+
+
+.mainGame{
+    border: 5px rgb(0,0,0);
+    background-color: rgb(136, 241, 192);
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
