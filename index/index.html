@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+
+
+         
+        
+
+
+        <br>
+        <h1>program index</h1>
+        <h2>by Mattia Baroni</h2>
+        <h3>version 1.1</h3>
+        <h3><input id="date" type="date" /></h3>
+        <br>
+        <br>
+        <br>
+        <h4>HTML</h4>
+        <ul>
+            <li>12 gen 22  |  sito di softair "sparane un'altra"</li>   
+        </ul>
+
+
+        <script>
+            var date = new Date();
+            var currentDate = date.toISOString().slice(0,10);
+            var currentTime = date.getHours() + ':' + date.getMinutes();
+
+            document.getElementById('date').value = currentDate;
+        </script>
+    </body>
+</html>

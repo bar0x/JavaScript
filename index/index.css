@@ -1,0 +1,49 @@
+/*    generalities    */
+
+* {
+    font-family: courier;
+  }
+
+body{
+    background-color: beige;
+}
+
+input{
+    border-style: none;
+    background-color: beige;
+    font-size: small;
+}
+input::-webkit-calendar-picker-indicator{
+    display: none;
+}
+
+
+/* custom fonts */
+
+h1{
+    color: rgb(117, 55, 19);
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-decoration: none;
+    font-size: xxx-large;
+    
+}
+
+h2{
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-decoration: none;
+    font-size: large;
+    font-style: italic;
+}
+
+h3{
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-decoration: none;
+    font-size: medium;
+    font-style:normal;
+}
+
+h4{
+    color: rgb(131, 54, 9);
+    font-family: monospace;
+    font-size: xx-large;
+}
